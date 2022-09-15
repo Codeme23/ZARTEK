@@ -32,11 +32,13 @@ const UsersList = () => {
   
   useEffect(() => {
     loadData();
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
     setData(null);
     loadData();
+    // eslint-disable-next-line
   }, [page]);
 
   const clickHandler = (val) => {
