@@ -7,7 +7,7 @@ import { User } from "./User";
 const UsersList = () => {
   const [data, setData] = useState(null);
   const [page, setPage] = useState(1);
-  const [users, setUsers] = useState([]);
+  const [users] = useState([]);
 
 
   const fetchData = (e) => {
